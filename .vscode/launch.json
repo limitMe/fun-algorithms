@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug fun-algorithms",
+      "program": ".build/debug/fun-algorithms",
+      "args": [],
+      "cwd": "${workspaceFolder:fun-algorithms}",
+      "preLaunchTask": "swift: Build Debug fun-algorithms"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release fun-algorithms",
+      "program": ".build/release/fun-algorithms",
+      "args": [],
+      "cwd": "${workspaceFolder:fun-algorithms}",
+      "preLaunchTask": "swift: Build Release fun-algorithms"
+    }
+  ]
+}
